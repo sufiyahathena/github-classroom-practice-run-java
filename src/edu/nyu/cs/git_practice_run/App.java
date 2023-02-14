@@ -37,10 +37,13 @@ public class App {
    * @param args An array of any command-line arguments.  The main function always has to include this, even if not used.
    * @throws Exception The main function always has to include this to handle crashing programs.
    */
-  public static void main(String[] args) throws Exception {
-
-    // complete this function according to the instructions.
-    
+  public static void main(String[] args) {
+    System.out.println( foo("Hello", "world!") );
+    System.out.println( bar() );
+    baz();
   }
 
-}
+    // complete this function according to the instructions.
+  
+  }
+
